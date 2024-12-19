@@ -69,7 +69,7 @@ button:hover {
 }
 /* Basic styling for the image */
 .image-style {
-    width: 300px; /* Adjust as needed */
+    width: 250px; /* Adjust as needed */
     height: auto; /* Maintain aspect ratio */
     border-radius: 15px; /* Rounded corners */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Soft shadow */
