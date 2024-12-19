@@ -67,3 +67,29 @@ button {
 button:hover {
     background-color: #2980b9;
 }
+/* Basic styling for the image */
+.image-style {
+    width: 300px; /* Adjust as needed */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 15px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Soft shadow */
+    transition: transform 0.3s, box-shadow 0.3s, filter 0.3s; /* Smooth transitions */
+  }
+  
+  /* Add a filter for a slight grayscale effect */
+  .image-style:hover {
+    transform: scale(1.05); /* Slight zoom effect */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Deeper shadow */
+    filter: grayscale(50%); /* Grayscale on hover */
+  }
+  
+  /* Optional: Styling a container to center the image */
+  .image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px; /* Space around the image */
+    background-color: #f9f9f9; /* Subtle background */
+  }
+  
+
